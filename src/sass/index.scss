@@ -1,0 +1,30 @@
+$uiWidth: 750;  //UI设计稿宽度
+
+@function Rem($num) {
+  @return $num / $uiWidth * 10rem;
+}
+* {
+  padding: 0;
+  margin: 0;
+  outline: none;
+}
+
+body {
+  margin: 0 auto;
+  // background: red;
+}
+
+.phone-page {
+  width: 10rem;
+  margin: 0 auto;
+}
+
+#logo {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: Rem(50);
+  .tip {
+    margin-top: Rem(20);
+  }
+}
