@@ -2,7 +2,12 @@
   "name": "easy-static",
   "version": "1.0.0",
   "description": "前端绘制静态页面快速搭建工具",
+  "homepage": "https://github.com/pcjser/easy-static",
   "main": "index.html",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:pcjser/easy-static.git"
+  },
   "dependencies": {},
   "devDependencies": {
     "autoprefixer": "^8.2.0",
@@ -18,6 +23,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "201688080@qq.com",
-  "license": "ISC"
+  "author": [{
+    "name": "pcjser",
+    "email": "6974182@qq.com"
+  }],
+  "license": "MIT"
 }
