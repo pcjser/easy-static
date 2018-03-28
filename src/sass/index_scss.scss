@@ -11,7 +11,6 @@ $uiWidth: 750;  //UI设计稿宽度
 
 body {
   margin: 0 auto;
-  // background: red;
 }
 
 .phone-page {
@@ -26,5 +25,6 @@ body {
   padding-top: Rem(50);
   .tip {
     margin-top: Rem(20);
+    font-size: Rem(50);
   }
 }
