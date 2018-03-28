@@ -16,7 +16,7 @@ var rename = require("gulp-rename");
 var imagemin = require('gulp-imagemin');
 var del = require('del');
 
-gulp.task('default', ['serve'])
+gulp.task('default', ['serve']);
 
 gulp.task('sass', function () {
   return gulp.src(['src/sass/*.scss', 'src/sass/*.sass'])
@@ -56,7 +56,7 @@ gulp.task('js', function () {
   return gulp.src('src/js/*.js')
     .pipe(sourcemaps.init())
     .pipe(babel({
-      presets: ['es2015']
+      presets: ['env']
     }))
     .pipe(gulp.dest('dist/js'))
     // .pipe(browserify())
